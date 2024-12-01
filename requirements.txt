@@ -1,0 +1,7 @@
+numpy
+pandas
+datasets
+tqdm
+nltk
+transformers>=4.10.0
+openprompt==0.1.2
