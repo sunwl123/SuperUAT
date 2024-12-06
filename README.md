@@ -64,6 +64,7 @@ The arguments:
 - for `all`-purpose triggers, you can choose template_id from \{0, 1, 2, 3\}.
 - for `prefix` triggers, you can choose template_id from \{0, 2}.
 - for `suffix` triggers, you can choose template_id from \{1, 3}.
+- We also provide evaluation on llama2 model in `eval_llama2.py` and GPT model in `eval_GPT.py`. The implementation of the evaluation is similar to `eval.py`. Note that you need to modify the path in these files to the correct model path. Additionally, the `eval_llama2.py` have a stricter limit on your GPU memory, and `eval_GPT.py` needs your own GPT api if you need to evaluate on GPT model.
 
 Use `python3 -m eval --help` for details.
 
